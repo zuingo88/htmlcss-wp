@@ -9,14 +9,14 @@
 /* REGOLE DIV ESTERNO */
 .global {
   margin: 0 auto;
-  min-width: 650px;
-  max-width: 1080px;
+  width: 1080px;
 }
 
 
 /* REGOLE HEADER */
 header {
   width: 100%;}
+  /* debug */
 
 /* logo */
 #logo {
@@ -40,13 +40,35 @@ li > a {
 
 /* prima section */
 #jumbotron {
-  width: 100%;
-  height: 400px;
+  height: 450px;
   margin: 30px 0 30px 0;
-
-  background-color: orange;
-
+  /* debug */
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  background-color: black;
 }
+
+/* immagine */
+.copertina {
+  width: 100%;
+  margin-top: -140px;
+  opacity: 0.8;
+}
+
+/* testo immagine */
+.figcaption-copertina {
+  position: absolute;
+  left: 20px;
+  bottom: 15%;
+}
+
+.figcaption-copertina > * {
+  color: white;
+  text-decoration: none;
+}
+
+
 
 /* seconda section */
 
