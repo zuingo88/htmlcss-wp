@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
 }
 
 /* REGOLE DIV ESTERNO */
@@ -15,12 +16,25 @@
 
 /* REGOLE HEADER */
 header {
-  width: 100%;
-  height: 100px;
+  width: 100%;}
 
-  background-color: pink;
+/* logo */
+#logo {
+  width:150px;
 }
 
+/* nav */
+.navbar-header li {
+  display: inline-block;
+  margin: 30px 2% 0 0;
+}
+
+li > a {
+  color: grey;
+  font-size: 14px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
 
 /* REGOLE MAIN */
 
