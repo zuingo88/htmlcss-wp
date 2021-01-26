@@ -35,10 +35,11 @@ li > a {
   text-transform: uppercase;
   text-decoration: none;
 }
+/* FINE HEADER */
 
 /* REGOLE MAIN */
 
-/* prima section */
+/* prima section jumbotron */
 #jumbotron {
   height: 450px;
   margin: 30px 0 30px 0;
@@ -46,10 +47,13 @@ li > a {
   position: relative;
   overflow: hidden;
   border-radius: 10px;
-  background-color: black;
 }
 
 /* immagine */
+.layover {
+  background-color: black;
+}
+
 .copertina {
   width: 100%;
   margin-top: -140px;
@@ -61,16 +65,17 @@ li > a {
   position: absolute;
   left: 20px;
   bottom: 15%;
+  width: 50%;
 }
 
 .figcaption-copertina > * {
   color: white;
   text-decoration: none;
 }
+/* fine section jumbotron */
 
 
-
-/* seconda section */
+/* seconda section contenuto*/
 
 /* clearfix */
 .row::after {
@@ -86,31 +91,42 @@ li > a {
 
 /* elementi float */
 .row > * {
-  height: 300px;
+  /* height: 300px; */
   float: left;
   margin-bottom: 10px;
-
-  background-color: lightblue;
+  /* debug */
+  background-color: pink;
 }
 
 .title-bar {
   height: 100px;
   width: 100%;
+  /* debug */
+  padding-top: 10px;
 }
 
 .aside {
   width: 20%;
+  /* debug */
+
 }
 
 .articolo {
   width: 56%;
   margin: 0 2%;
+  /* debug */
+
+}
+
+#contenuto .layover {
+  width: 100%;
+  height: 200px;
 }
 
 /* regole footer */
 footer {
-  height: 80px;
+  height: 100px;
   margin-top: 10px;
-
+  /* debug */
   background-color: purple;
 }
